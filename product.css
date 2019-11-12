@@ -1,0 +1,69 @@
+body{
+	margin: 0px;
+}
+.header{
+	text-align: left;
+	display: white;
+	margin: 0px;
+	background: linear-gradient(to right, rgba(255,218,185), rgb(255,182,193));
+
+}
+.header h1{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: #bc5c58; 
+	font-weight: bold;
+}
+a:hover{
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu{
+	background: #FF96a6;
+	color: white;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.content{}
+.content .right{
+	float: right;
+	background: linear-gradient(to bottom left, #FFE4B5, pink);
+	width: 85%;
+}
+.right h3{
+	margin: 20px;
+}
+.content .left{
+	float: left;
+	background: #ffc3b1;
+	width: 15%;
+}
+.left ul{
+	list-style: none;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.product {
+	display: inline-block;
+	width: 21%;
+	padding: 10px;
+	background: white;
+	margin: 10px;
+}
+
+.product img{
+	width: 100%;
+}

@@ -1,0 +1,43 @@
+body{
+	background: linear-gradient(to right, rgba(255,218,185), rgb(255,182,193));
+}
+.header{
+	text-align: center;
+	display: white;
+	margin: auto;
+
+}
+a{
+	text-decoration: none;
+	color: #bc5c58; 
+	font-weight: bold;
+}
+a:hover{
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu{
+	background: #FF96a6;
+	color: white;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.product {
+	display: inline-block;
+	width: 10%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.product img{
+	width: 100%;
+}
